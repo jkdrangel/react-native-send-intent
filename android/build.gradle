@@ -18,6 +18,9 @@ android {
         versionCode 27
         versionName "1.2.2"
     }
+     lintOptions {
+          abortOnError false
+      }
 }
 
 dependencies {
